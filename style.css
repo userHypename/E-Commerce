@@ -1,0 +1,420 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar {
+  background: white;
+  text-align: left;
+}
+.logo {
+  margin-top: 5px;
+  margin-left: 5px;
+  display: inline-block;
+  gap: 100x;
+  align-items: center;
+  width: 150px;
+}
+.icon {
+  display: inline-block;
+  margin-left: 20px;
+}
+li {
+  color: white;
+  list-style: none;
+  float: right;
+  padding: 10px;
+}
+.Intro-text {
+  margin-left: 30px;
+}
+.Header-text {
+  margin-bottom: 0;
+}
+
+.sub-intro {
+  margin-top: 5px;
+  color: gray;
+  margin-bottom: 30px;
+}
+/* HEADPHONE */
+.img-container-headphone {
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+.thumbnail-1 {
+  vertical-align: top;
+  width: 350px;
+  height: 465px;
+  display: inline-block;
+  margin-right: 30px;
+  margin-left: 65px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.thumbnail-1-pic {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.2s ease;
+  display: block;
+  transform-origin: center; /* important */
+}
+
+.thumbnail-1:hover .thumbnail-1-pic {
+  transform: scale(1.1);
+}
+.headphone-title {
+  margin-bottom: 6px;
+}
+.headphone-desc {
+  margin-top: 0;
+  margin-bottom: 3px;
+  color: gray;
+  font-size: small;
+}
+.card-content-1 {
+  padding: 20px;
+}
+.price-row {
+  display: flex;
+  justify-content: space-between; /* pushes items apart */
+  align-items: center; /* vertical alignment */
+  margin-top: 0;
+}
+.headphone-price {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.headphone-button {
+  padding: 10px 16px;
+  font-size: 14px;
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.headphone-button:hover {
+  background: linear-gradient(135deg, #1e40af, #1e3a8a);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.4);
+}
+
+/* APPLE WATCH */
+.thumbnail-2 {
+  vertical-align: top;
+  width: 350px;
+  height: 465px;
+  display: inline-block;
+  margin-right: 27px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* shadow */
+}
+.img-container-appleWatch {
+  overflow: hidden;
+
+  border-radius: 10px 10px 0 0;
+}
+.thumbnail-2-pic {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.2s ease;
+  display: block;
+  transform-origin: center;
+}
+.thumbnail-2:hover .thumbnail-2-pic {
+  transform: scale(1.1);
+}
+
+.card-content-2 {
+  padding: 20px;
+}
+.appleWatch-desc {
+  margin-top: 0;
+  margin-bottom: 3px;
+  color: gray;
+  font-size: small;
+}
+.appleWatch-title {
+  margin-bottom: 6px;
+}
+.watch-price {
+  margin-top: 10px;
+}
+.watch-button {
+  padding: 10px 16px;
+  font-size: 14px;
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.watch-button:hover {
+  background: linear-gradient(135deg, #1e40af, #1e3a8a);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.4);
+}
+
+/* IP13 */
+.thumbnail-3 {
+  vertical-align: top;
+  width: 350px;
+  height: 465px;
+  display: inline-block;
+  margin-right: 27px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* shadow */
+}
+.img-container-IP13 {
+  overflow: hidden;
+
+  border-radius: 10px 10px 0 0;
+}
+.thumbnail-3-pic {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.2s ease;
+  display: block;
+  transform-origin: center;
+}
+.thumbnail-3:hover .thumbnail-3-pic {
+  transform: scale(1.1);
+}
+
+.card-content-3 {
+  padding: 20px;
+}
+.IP13-desc {
+  margin-top: 0;
+  margin-bottom: 3px;
+  color: gray;
+  font-size: small;
+}
+.IP13-price {
+  margin-top: 10px;
+}
+.IP13-title {
+  margin-bottom: 6px;
+}
+.IP13-price {
+  margin-top: 10px;
+}
+.IP13-button {
+  padding: 10px 16px;
+  font-size: 14px;
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.IP13-button:hover {
+  background: linear-gradient(135deg, #1e40af, #1e3a8a);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.4);
+}
+/* mac */
+.thumbnail-4 {
+  margin-top: 40px;
+  margin-right: 30px;
+  margin-left: 65px;
+  vertical-align: top;
+  width: 350px;
+  height: 465px;
+  display: inline-block;
+  margin-right: 27px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* shadow */
+}
+.img-container-mac {
+  overflow: hidden;
+
+  border-radius: 10px 10px 0 0;
+}
+.thumbnail-4-pic {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.2s ease;
+  display: block;
+  transform-origin: center;
+}
+.thumbnail-4:hover .thumbnail-4-pic {
+  transform: scale(1.1);
+}
+
+.card-content-4 {
+  padding: 20px;
+}
+.mac-desc {
+  margin-top: 0;
+  margin-bottom: 3px;
+  color: gray;
+  font-size: small;
+}
+.mac-price {
+  margin-top: 10px;
+}
+.mac-title {
+  margin-bottom: 6px;
+}
+.mac-button {
+  padding: 10px 16px;
+  font-size: 14px;
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.mac-button:hover {
+  background: linear-gradient(135deg, #1e40af, #1e3a8a);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.4);
+}
+/*tiger */
+.thumbnail-5 {
+  margin-top: 40px;
+  margin-right: 30px;
+  vertical-align: top;
+  width: 350px;
+  height: 465px;
+  display: inline-block;
+  margin-right: 27px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* shadow */
+}
+.img-container-tiger {
+  overflow: hidden;
+
+  border-radius: 10px 10px 0 0;
+}
+.thumbnail-5-pic {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.2s ease;
+  display: block;
+  transform-origin: center;
+}
+.thumbnail-5:hover .thumbnail-5-pic {
+  transform: scale(1.1);
+}
+
+.tiger-title {
+  margin-bottom: 6px;
+}
+
+.card-content-5 {
+  padding: 20px;
+}
+.tiger-desc {
+  margin-top: 0;
+  margin-bottom: 3px;
+  color: gray;
+  font-size: small;
+}
+.tiger-price {
+  margin-top: 10px;
+}
+.tiger-button {
+  padding: 10px 16px;
+  font-size: 14px;
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.tiger-button:hover {
+  background: linear-gradient(135deg, #1e40af, #1e3a8a);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.4);
+}
+/*ps5 */
+.thumbnail-6 {
+  margin-top: 40px;
+  margin-right: 30px;
+  vertical-align: top;
+  width: 350px;
+  height: 465px;
+  display: inline-block;
+  margin-right: 27px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* shadow */
+}
+.img-container-ps5 {
+  overflow: hidden;
+
+  border-radius: 10px 10px 0 0;
+}
+.thumbnail-6-pic {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.2s ease;
+  display: block;
+  transform-origin: center;
+}
+.thumbnail-6:hover .thumbnail-6-pic {
+  transform: scale(1.1);
+}
+
+.card-content-6 {
+  padding: 20px;
+}
+.ps5-desc {
+  margin-top: 0;
+  margin-bottom: 3px;
+  color: gray;
+  font-size: small;
+}
+.ps5-price {
+  margin-top: 10px;
+}
+
+.ps5-title {
+  margin-bottom: 6px;
+}
+.ps5-button {
+  padding: 10px 16px;
+  font-size: 14px;
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.ps5-button:hover {
+  background: linear-gradient(135deg, #1e40af, #1e3a8a);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.4);
+}
