@@ -3,8 +3,8 @@ const products = [
   { id: 2, name: "Apple Watch", price: 1500 },
   { id: 3, name: "iPhone 13 Pro", price: 45000 },
   { id: 4, name: "MacBook", price: 55000 },
-  { id: 5, name: "Notebook", price: 120 },
-  { id: 6, name: "Ballpen", price: 20 },
+  { id: 5, name: "Onitsuka tiger", price: 1500 },
+  { id: 6, name: "Play Station 5", price: 50000 },
 ];
 
 let cart = [];
